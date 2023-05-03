@@ -1,0 +1,119 @@
+.container_films {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 710px;
+  margin: auto;
+}
+
+.directors {
+  list-style: none;
+  padding: 0;
+}
+
+.directors li {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 10px solid #deff0b;
+  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1), -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1), -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s all linear;
+  height: 140px;
+}
+
+.directors li:nth-child(2) {
+  border-color: #acff3f;
+}
+
+.directors li:nth-child(3) {
+  border-color: #30fc37;
+}
+
+.directors li:nth-child(4) {
+  border-color: #25f87d;
+}
+
+.directors li:nth-child(5) {
+  border-color: #31fffc;
+}
+
+.directors li:nth-child(6) {
+  border-color: #32b4ff;
+}
+
+.directors li:nth-child(7) {
+  border-color: #1c73ff;
+}
+
+.directors li:nth-child(8) {
+  border-color: #6c1eff;
+}
+
+.directors li:hover {
+  border-left: 10px solid transparent;
+}
+
+.directors li:nth-child(1):hover {
+  border-right: 10px solid #deff0b;
+}
+
+.directors li:nth-child(2):hover {
+  border-right: 10px solid #acff3f;
+}
+
+.directors li:nth-child(3):hover {
+  border-right: 10px solid #30fc37;
+}
+
+.directors li:nth-child(4):hover {
+  border-right: 10px solid #25f87d;
+}
+
+.directors li:nth-child(5):hover {
+  border-right: 10px solid #31fffc;
+}
+
+.directors li:nth-child(6):hover {
+  border-right: 10px solid #32b4ff;
+}
+
+.directors li:nth-child(7):hover {
+  border-right: 10px solid #1c73ff;
+}
+
+.directors li:nth-child(8):hover {
+  border-right: 10px solid #6c1eff;
+}
+
+.the_first_title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.director_name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.director_career {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-size: 10px;
+}
+
+.director_film {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-size: 10px;
+}
+
+.director_top_rated_film {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-size: 10px;
+}/*# sourceMappingURL=app.css.map */
