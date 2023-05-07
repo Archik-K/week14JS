@@ -58,7 +58,7 @@ listOfFilmDirectors.forEach((director) => {
     <h2 class="director_name">${director.name}</h2>
 	
     <p class="director_career">Карьера: ${director.career}</p>
-    <p classs="director_film"> <a href="${director.films}">Список фильмов</a></p>
+    <p class="director_film"> <a href="${director.films}">Список фильмов</a></p>
     <p class="director_top_rated_film">Лучший фильм: ${director.top_rated_film}</p>
   `; //выводим на страницу имя, карьеру, список фильмов и лучшие фильмы режиссёра
 	directorElement.appendChild(directorLi); //добавляем созданный li-элемент в контейнер, который мы создали для вывода информации о каждом режиссёре
